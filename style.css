@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arvo", serif;
+  scroll-behavior: smooth;
+  line-height: 1.6;
+  background: #fdfdfd;
+  color: #222;
+}
+
+header {
+  background: #111;
+  color: #fff;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.logo {
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+nav a:hover{
+    color: rgb(191, 128, 128);
+}
+
+.hero {
+  height: 90vh;
+  background: url('risen-wang-20jX9b35r_M-unsplash.jpg') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 6em;
+  margin-bottom: 0.5em;
+}
+.hero p{
+    font-size: 3em;
+}
+
+h2{
+    margin-top:100px;
+    margin-bottom: 110px;
+    color: white;
+    font-size: 65px;
+}
+
+.content-section {
+  padding: 120px 40px;
+  background: #fff;
+  text-align: center;
+}
+
+#facilities{
+    background:url("anastase-maragos-4dlhin0ghOk-unsplash.jpg") ;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+  height: 250px;
+}
+
+.cards > div {
+  width: 390px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.card1{
+  background-image:url("tareq-ismail-FaHKxm7WBJo-unsplash.jpg");
+  padding: 95px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px sloid black;
+  color: white;
+  cursor: pointer;
+}
+
+.card2{
+  background-image:url(s-aji-w-qbDMWn0FRPc-unsplash.jpg) ;
+  padding: 95px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px sloid black;
+  color: white;
+   cursor: pointer;
+}
+
+.card3{
+  background-image:url(gildasio-filho-A-_kB052h7Q-unsplash.jpg) ;
+  padding: 95px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px sloid black;
+  color: white;
+   cursor: pointer;
+}
+
+.card4{
+  background-image:url(kenny-miller-XRrLtBwzFyg-unsplash.jpg) ;
+  padding: 95px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px sloid black;
+  color: white;
+  cursor: pointer;
+}
+
+#services{
+    background:url(mohamed-fareed-rbSNsoXk-3A-unsplash.jpg) ;
+    color: black;
+    font-size: 30px;
+    
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#plans{
+    background: url(ambitious-studio-rick-barrett-h9t94gzm6q8-unsplash.jpg);
+}
+
+.plans {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.plan {
+  background: #e2e2e2;
+  padding: 90px;
+  flex: 1 1 250px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+#contactForm{
+    background: url(esther-jiao-ADv0GiMBlmI-unsplash.jpg);
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 500px;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;         /* Horizontal center */
+  justify-content: center;     /* Vertical center */
+  min-height: 70vh;           
+  background-color: black;     /* Optional: background */
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#contactForm input,
+#contactForm textarea {
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 20px;
+}
+
+#contactForm button {
+  padding: 18px;
+  background-color: #111;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+#contactForm button:hover{
+    background-color: rgb(171, 62, 62);
+    color: black;
+    transform: scale(1.05);
+}
+
+footer {
+  background-color: #111; 
+  color: #fff;            
+  text-align: center;    
+  padding: 20px 0;      
+  font-family: "Arvo", serif;
+  font-size: 14px;
+  border-top: 2px solid #f00; 
+}
